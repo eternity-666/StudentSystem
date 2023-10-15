@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addStudentPage</class>
+ <widget class="QDialog" name="addStudentPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>413</width>
+    <height>440</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>1</y>
+     <width>31</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="labels">
+    <item>
+     <widget class="QLabel" name="studentNumberLabel">
+      <property name="text">
+       <string>学号</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="nameLabel">
+      <property name="text">
+       <string>姓名</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="classLabel">
+      <property name="text">
+       <string>班级</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="chineseLabel">
+      <property name="text">
+       <string>语文</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="mahLabel">
+      <property name="text">
+       <string>数学</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="englishLabel">
+      <property name="text">
+       <string>英语</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>0</y>
+     <width>221</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="lineEdits">
+    <item>
+     <widget class="QLineEdit" name="studentNumberLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="nameLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="classNameLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="chineseLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="mathLineEdit"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="englishLineEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>360</y>
+     <width>301</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="savePushButton">
+      <property name="text">
+       <string>保存</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="cancelPushButton_2">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
